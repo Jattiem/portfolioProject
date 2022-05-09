@@ -1,0 +1,39 @@
+/* Navbar button */
+.navbar-light .navbar-toggler {
+    color: rgb(250, 167, 12);
+    border-color: yellow;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 100rem;
+    transition: box-shadow .15s ease-in-out;
+}
+/*Inspired portfolio https://muneeb-davids.netlify.app/*/
+/* Background home */
+#Home{
+    background:url(./background.png);
+     background-size:cover;
+     background-position:center center;
+     background-attachment:fixed;
+}
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+#head{
+    font-family: 'Macondo', cursive;
+    color: black;
+}
+#title{
+    font-family: 'Macondo', cursive;
+}
+#foot{
+    font-family: 'Macondo', cursive;
+    color: black;
+}
+a:hover i {
+    transform: scale(1.5);
+    transition: all 0.3s linear;
+    color: orangered;
+}
