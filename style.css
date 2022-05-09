@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Navbar button */
 .navbar-light .navbar-toggler {
     color: rgb(250, 167, 12);
@@ -14,7 +18,7 @@
 }
 /*Inspired portfolio https://muneeb-davids.netlify.app/*/
 /* Background home */
-#Home{
+#home{
     background:url(./background.png);
      background-size:cover;
      background-position:center center;
@@ -23,7 +27,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 #head{
     font-family: 'Macondo', cursive;
-    color: black;
 }
 #title{
     font-family: 'Macondo', cursive;
@@ -32,8 +35,63 @@
     font-family: 'Macondo', cursive;
     color: black;
 }
+/* footer icons */
 a:hover i {
     transform: scale(1.5);
-    transition: all 0.3s linear;
+    transition: all 0.4s linear;
+    color: orangered;
+}
+#heart:hover{
+    color: orangered;
+}
+#icon{
+    color: #0d6efd;
+}
+#icon2{
+    color: orangered;
+}
+#title{
+    color:rgb(213, 197, 197);
+}
+#ficon{
+    font-size: 30px;
+    line-height: 50px;
+    transition: .3s;
+    color: #012966;
+}
+#net:hover{
+    transform: scale(1.5);
+    transition: all 0.4s linear;
+}
+#net{
+    padding-bottom: 8.5px;
+}
+#aboutimage{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid orange;
+}
+#about{
+    font-family: 'Macondo', cursive;
+}
+#ha{
+    color: #0d6efd;
+}
+#ab{
+    color: #0d6efd;
+    border: 1px solid orange;
+}
+#ab:hover{
+    background-color: orangered;
+    color: black;
+}
+#con{
+    border: 1px solid orange;
+}
+#con:hover{
+ transform: scale(1.1);
+    transition: all 0.4s linear;
     color: orangered;
 }
