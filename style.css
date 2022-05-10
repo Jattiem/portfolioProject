@@ -78,7 +78,8 @@ a:hover i {
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid orangered;
-    
+    align-items: center;
+    margin-left: 200px;
 }
 #about{
     font-family: 'Macondo', cursive;
