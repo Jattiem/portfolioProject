@@ -38,6 +38,9 @@
 #skills{
     font-family: 'Macondo', cursive;
 }
+#resume{
+    font-family: 'Macondo', cursive;
+}
 /* footer icons */
 a:hover i {
     transform: scale(1.5);
@@ -71,10 +74,11 @@ a:hover i {
 }
 #aboutimage{
     width: 300px;
-    height: 350px;
+    height: 300px;
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid orangered;
+    
 }
 #about{
     font-family: 'Macondo', cursive;
@@ -83,12 +87,12 @@ a:hover i {
     color: #0d6efd;
 }
 #ab{
-    color: #0d6efd;
+    color: #5d90dd;
     border: 1px solid orange;
 }
 #ab:hover{
-    background-color: orangered;
-    color: black;
+    background-color: orange;
+    color: blue;
 }
 #con{
     border: 1px solid orange;
@@ -107,3 +111,8 @@ a:hover i {
     transform: scale(1.1);
     transition: all 0.4s linear;
 }
+@media only screen and (max-width: 600px) {
+    {
+
+       }
+  }
