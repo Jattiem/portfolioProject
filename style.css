@@ -35,6 +35,9 @@
     font-family: 'Macondo', cursive;
     color: black;
 }
+#skills{
+    font-family: 'Macondo', cursive;
+}
 /* footer icons */
 a:hover i {
     transform: scale(1.5);
@@ -94,4 +97,13 @@ a:hover i {
  transform: scale(1.1);
     transition: all 0.4s linear;
     color: orangered;
+}
+#imgs{
+    border-radius: 10px;
+    border:2px solid orangered;
+    width: 175px;
+}
+#imgs:hover{
+    transform: scale(1.1);
+    transition: all 0.4s linear;
 }
