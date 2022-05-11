@@ -1,122 +1,211 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 /* Navbar button */
 .navbar-light .navbar-toggler {
-    color: rgb(250, 167, 12);
-    border-color: yellow;
+  color: rgb(250, 167, 12);
+  border-color: yellow;
 }
 .navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 2px solid transparent;
-    border-radius: 100rem;
-    transition: box-shadow .15s ease-in-out;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 100rem;
+  transition: box-shadow 0.15s ease-in-out;
 }
 /*Inspired portfolio https://muneeb-davids.netlify.app/*/
 /* Background home */
-#home{
-    background:url(./background.png);
-     background-size:cover;
-     background-position:center center;
-     background-attachment:fixed;
+#home {
+  background: url(./background.png),
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
-#head{
-    font-family: 'Macondo', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+#head {
+  font-family: "Macondo", cursive;
 }
-#title{
-    font-family: 'Macondo', cursive;
+#title {
+  font-family: "Macondo", cursive;
 }
-#foot{
-    font-family: 'Macondo', cursive;
-    color: black;
+#foot {
+  font-family: "Macondo", cursive;
+  color: black;
 }
-#skills{
-    font-family: 'Macondo', cursive;
+#skills {
+  font-family: "Macondo", cursive;
 }
-#resume{
-    font-family: 'Macondo', cursive;
+#resume {
+  font-family: "Macondo", cursive;
+}
+#contact {
+  font-family: "Macondo", cursive;
+}
+#projects {
+  font-family: "Macondo", cursive;
 }
 /* footer icons */
 a:hover i {
-    transform: scale(1.5);
-    transition: all 0.4s linear;
-    color: orangered;
+  transform: scale(1.5);
+  transition: all 0.4s linear;
+  color: orangered;
 }
-#heart:hover{
-    color: orangered;
+#heart:hover {
+  color: orangered;
 }
-#icon{
-    color: #0d6efd;
+#icon {
+  color: #0d6efd;
 }
-#icon2{
-    color: orangered;
+#icon2 {
+  color: orangered;
 }
-#title{
-    color:rgb(213, 197, 197);
+#title {
+  color: rgb(213, 197, 197);
 }
-#ficon{
-    font-size: 30px;
-    line-height: 50px;
-    transition: .3s;
-    color: #012966;
+#ficon {
+  font-size: 30px;
+  line-height: 50px;
+  transition: 0.3s;
+  color: #012966;
 }
-#net:hover{
-    transform: scale(1.5);
-    transition: all 0.4s linear;
+#net:hover {
+  transform: scale(1.5);
+  transition: all 0.4s linear;
 }
-#net{
-    padding-bottom: 8.5px;
+#net {
+  padding-bottom: 8.5px;
 }
-#aboutimage{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: transparent;
-    border: 2px solid orangered;
-    align-items: center;
-    margin-left: 200px;
+/* AboutSection */
+#aboutimage {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid orangered;
+  align-items: center;
+  margin-left: 200px;
+  object-fit: cover;
+  object-position: 0 0.5px;
 }
-#about{
-    font-family: 'Macondo', cursive;
+#about {
+  font-family: "Macondo", cursive;
 }
-#ha{
-    color: #0d6efd;
+#ha {
+  color: #0d6efd;
 }
-#haa{
-    color: orangered;
+#haa {
+  color: orangered;
 }
-#ab{
-    color: #5d90dd;
-    border: 1px solid orange;
+#ab {
+  color: #5d90dd;
+  border: 1px solid orange;
 }
-#ab:hover{
-    background-color: orange;
-    color: blue;
+#ab:hover {
+  background-color: orange;
+  color: blue;
 }
-#con{
-    border: 1px solid orange;
+#con {
+  border: 1px solid orange;
 }
-#con:hover{
- transform: scale(1.1);
-    transition: all 0.4s linear;
-    color: orangered;
+#con:hover {
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+  color: orangered;
 }
-#imgs{
-    border-radius: 10px;
-    border:2px solid orangered;
-    width: 175px;
+#imgs {
+  border-radius: 10px;
+  border: 2px solid orangered;
+  width: 175px;
 }
-#imgs:hover{
-    transform: scale(1.1);
-    transition: all 0.4s linear;
+#imgt {
+  border: 2px solid orangered;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
 }
-@media only screen and (max-width: 600px) {
-    {
+#imgt:hover {
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+}
+#imgs:hover {
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+}
+/* ProjectSection */
+.container {
+  position: relative;
+  width: 50%;
+}
 
-       }
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #0d6efdg;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* About */
+@media only screen and (max-width: 1440px) {
+  #aboutimage {
+    margin-left: 40px;
   }
+  #aboutimage {
+    margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #about {
+    padding-top: 10px;
+    box-sizing: content-box;
+  }
+  #aboutimage {
+    margin-left: 40px;
+  }
+  #ah {
+    margin-right: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #about {
+    padding-top: 10px;
+    box-sizing: content-box;
+  }
+  #aboutimage {
+    margin-left: 0px;
+  }
+  #ab {
+    width: 100%;
+  }
+  #ah {
+    margin-left: 3%;
+  }
+}
