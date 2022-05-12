@@ -12,6 +12,9 @@
   border-radius: 100rem;
   transition: box-shadow 0.15s ease-in-out;
 }
+
+
+
 /*Inspired portfolio https://muneeb-davids.netlify.app/*/
 /* Background home */
 #home {
@@ -22,6 +25,10 @@
   background-position: center center;
   background-attachment: fixed;
 }
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
 #head {
   font-family: "Macondo", cursive;
@@ -31,7 +38,6 @@
 }
 #foot {
   font-family: "Macondo", cursive;
-  color: black;
 }
 #skills {
   font-family: "Macondo", cursive;
@@ -45,6 +51,16 @@
 #projects {
   font-family: "Macondo", cursive;
 }
+#testimonial{
+  font-family: 'Macondo', cursive;
+  color: orangered;
+}
+#about {
+  font-family: "Macondo", cursive;
+}
+
+
+
 /* footer icons */
 a:hover i {
   transform: scale(1.5);
@@ -60,9 +76,6 @@ a:hover i {
 #icon2 {
   color: orangered;
 }
-#title {
-  color: rgb(213, 197, 197);
-}
 #ficon {
   font-size: 30px;
   line-height: 50px;
@@ -76,34 +89,49 @@ a:hover i {
 #net {
   padding-bottom: 8.5px;
 }
+
+
+/* Home Section */
+#title {
+  color: rgb(213, 197, 197);
+}
+#hbutton{
+  margin-top: 10px;  
+}
+#hbutton:hover{
+  color: orangered;
+  border: 1px solid #0d6efd;
+}
+
+
+
+
+
+
 /* AboutSection */
 #aboutimage {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   background-color: transparent;
-  border: 1px solid orangered;
+  border: 2px solid orangered;
   align-items: center;
   margin-left: 200px;
   object-fit: cover;
   object-position: 0 0.5px;
 }
-#about {
-  font-family: "Macondo", cursive;
-}
 #ha {
-  color: #0d6efd;
+  color: orangered;
 }
 #haa {
   color: orangered;
 }
 #ab {
-  color: #5d90dd;
-  border: 1px solid orange;
+  color: black;
+  border: 1px solid #0d6efd;
 }
 #ab:hover {
-  background-color: orange;
-  color: blue;
+  color: orangered;
 }
 #con {
   border: 1px solid orange;
@@ -117,11 +145,12 @@ a:hover i {
   border-radius: 10px;
   border: 2px solid orangered;
   width: 175px;
+  object-fit: cover;
 }
 #imgt {
   border: 2px solid orangered;
-  width: 150px;
-  height: 100px;
+  width: 170px;
+  height: 120px;
   border-radius: 10px;
 }
 #imgt:hover {
@@ -132,6 +161,12 @@ a:hover i {
   transform: scale(1.1);
   transition: all 0.4s linear;
 }
+#bullet{
+  color: orangered;
+}
+
+
+
 /* ProjectSection */
 .container {
   position: relative;
@@ -154,7 +189,6 @@ a:hover i {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #0d6efdg;
 }
 
 .container:hover .overlay {
@@ -173,7 +207,9 @@ a:hover i {
   text-align: center;
 }
 
-/* About */
+
+
+/* About Section Media Query */
 @media only screen and (max-width: 1440px) {
   #aboutimage {
     margin-left: 40px;
@@ -208,4 +244,38 @@ a:hover i {
   #ah {
     margin-left: 3%;
   }
+}
+
+
+
+
+
+/* ProjectLinkbutton */
+#linkbutton{
+  font-size: 30px;
+  line-height: 50px;
+  transition: 0.3s;
+  color: #012966;
+}
+#linkbutton:hover{
+  color: orangered;
+}
+
+
+/* Testimonial button */
+.circle{
+  width: 20px !important;
+  height: 20px !important;
+  aspect-ratio: 1 !important;
+  border-radius: 50% !important;
+  background-color: #0d6efd !important;
+}
+/* TEXTWRITER */
+#typewrite a{
+  text-decoration: none;
+  color: orangered;
+}
+/* Contact Section */
+#testimonialicon {
+  color: orangered;
 }
